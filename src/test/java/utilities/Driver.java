@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
-    // selamlari silmek istiyorum burasi yanlis olmus.
+    // ooooooooooooooooooooooooo
     // merhabalar.
     //Driver class, driver instance'i baslatmak icin kullanilir (Singleton Driver)
     // ihtiyacimiz oldugunda driver'i kurmak ve baslatmak icin kullaniyoruz
