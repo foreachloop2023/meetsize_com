@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite 1" verbose="2">
+    <test name="MeetSize Test1">
+        <packages>
+            <package name="smoketest"></package>
+        </packages>
+    </test>
+</suite>
