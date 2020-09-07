@@ -15,7 +15,7 @@ public class US02_NegativeRegisterFunction_Test extends TestBaseFinal {
 
     @Test
     public void RegisterWithoutPassword() {
-        SoftAssert softAssert = new SoftAssert();
+        softAssert = new SoftAssert();
         uS02_NegativeRegisterFunction = new US02_NegativeRegisterFunction();
         extentTest=extentReports.createTest("Register Without Password","We are trying to register without typing password");
         extentTest.info("User goes to the homepage");
