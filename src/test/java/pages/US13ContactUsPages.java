@@ -24,7 +24,7 @@ public class US13ContactUsPages {
     @FindBy(xpath = "/html/body/footer/div[2]/div/div[2]/ul/li[2]/a")
     public WebElement contactUs;
 
-    @FindBy(id = "name")
+    @FindBy(xpath = "//input[@id='name']")
     public WebElement name;
 
     @FindBy(id="lastname")
