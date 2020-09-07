@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class US02_NegativeRegisterFunction {
-    public US02_NegativeRegisterFunction() {
+public class US02_NegativeRegisterFunction_Page {
+    public US02_NegativeRegisterFunction_Page() {
 
         PageFactory.initElements(Driver.getdriver(), this);
     }
