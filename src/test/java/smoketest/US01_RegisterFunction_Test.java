@@ -17,7 +17,7 @@ public class US01_RegisterFunction_Test extends TestBaseFinal {
         extentTest.info("User Enters the name and surname");
         uS01_registerFunction_page.nameAndSurname.sendKeys(ConfigReader.getProperty("nameAndSurname"));
         extentTest.info("User Enters the email adress");
-        uS01_registerFunction_page.email.sendKeys(ConfigReader.getProperty("email"));
+        uS01_registerFunction_page.email.sendKeys(ConfigReader.getProperty("email_register"));
         extentTest.info("User enters the password");
         uS01_registerFunction_page.password.sendKeys(ConfigReader.getProperty("password"));
         extentTest.info("User clicks the create an account button");
